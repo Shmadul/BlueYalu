@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2113F1111EB0D5950039251B /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2113F1101EB0D5950039251B /* bg.jpg */; };
+		2113F1151EB0DD8D0039251B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2113F1141EB0DD8D0039251B /* Images.xcassets */; };
+		2113F1171EB0DE550039251B /* l.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2113F1161EB0DE550039251B /* l.storyboard */; };
+		211FE9EC1EB121710037AE28 /* bolt.png in Resources */ = {isa = PBXBuildFile; fileRef = 211FE9EA1EB121710037AE28 /* bolt.png */; };
+		211FE9ED1EB121710037AE28 /* bolt2.png in Resources */ = {isa = PBXBuildFile; fileRef = 211FE9EB1EB121710037AE28 /* bolt2.png */; };
+		2175201B1EE1F0F400ED798A /* dropbear21.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2175201A1EE1F0F400ED798A /* dropbear21.plist */; };
+		219A13121EE2DDEB0097C84B /* dropbear22.plist in Resources */ = {isa = PBXBuildFile; fileRef = 219A13111EE2DDEB0097C84B /* dropbear22.plist */; };
+		219B1B341EAE154D0090BF3B /* AnExtremelyRandomFile in Resources */ = {isa = PBXBuildFile; fileRef = 219B1B331EAE154D0090BF3B /* AnExtremelyRandomFile */; };
+		219B1B361EAE5B1C0090BF3B /* lb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 219B1B351EAE5B1C0090BF3B /* lb.jpg */; };
+		21A49FBE1EC6ABDB0044390E /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A49FBD1EC6ABCA0044390E /* IOKit.framework */; };
+		21D5BBDA1EAC1EB10062CCDA /* IOKit.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9901181E21A2180056FEBD /* IOKit.tbd */; };
+		21D5BBDB1EAC1EBF0062CCDA /* iokitmig64.o in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9901131E21A1B00056FEBD /* iokitmig64.o */; };
+		EA1A3B9D1E391C4F009CA025 /* patchfinder64.o in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1A3B9C1E391C4F009CA025 /* patchfinder64.o */; };
+		EA1A3BA81E398E33009CA025 /* 0.reload.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA1A3BA61E398E33009CA025 /* 0.reload.plist */; };
+		EA1A3BAD1E399006009CA025 /* reload in Resources */ = {isa = PBXBuildFile; fileRef = EA1A3BAC1E399006009CA025 /* reload */; };
+		EA1A3BC51E39D1FF009CA025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA1A3BC41E39D1FF009CA025 /* Assets.xcassets */; };
+		EA9900E81E1E9F060056FEBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9900E71E1E9F060056FEBD /* main.m */; };
+		EA9900EB1E1E9F060056FEBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9900EA1E1E9F060056FEBD /* AppDelegate.m */; };
+		EA9900EE1E1E9F060056FEBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9900ED1E1E9F060056FEBD /* ViewController.m */; };
+		EA9900F11E1E9F060056FEBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA9900EF1E1E9F060056FEBD /* Main.storyboard */; };
+		EA9901041E219C210056FEBD /* offsets.c in Sources */ = {isa = PBXBuildFile; fileRef = EA9901021E219C210056FEBD /* offsets.c */; };
+		EA9901061E219FF10056FEBD /* bootstrap.tar in Resources */ = {isa = PBXBuildFile; fileRef = EA9901051E219FF10056FEBD /* bootstrap.tar */; };
+		EA99010A1E21A04C0056FEBD /* tar in Resources */ = {isa = PBXBuildFile; fileRef = EA9901091E21A04C0056FEBD /* tar */; };
+		EA99010C1E21A0520056FEBD /* launchctl in Resources */ = {isa = PBXBuildFile; fileRef = EA99010B1E21A0520056FEBD /* launchctl */; };
+		EA99010E1E21A1560056FEBD /* jailbreak.m in Sources */ = {isa = PBXBuildFile; fileRef = EA99010D1E21A1560056FEBD /* jailbreak.m */; };
+		EA9901171E21A1D90056FEBD /* devicesupport.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9901161E21A1D90056FEBD /* devicesupport.m */; };
+		EAA7F7C71E3EE4AF00BE3C64 /* dropbear.plist in Resources */ = {isa = PBXBuildFile; fileRef = EAA7F7C61E3EE4AF00BE3C64 /* dropbear.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2113F1101EB0D5950039251B /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		2113F1141EB0DD8D0039251B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2113F1161EB0DE550039251B /* l.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = l.storyboard; sourceTree = "<group>"; };
+		211FE9EA1EB121710037AE28 /* bolt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bolt.png; sourceTree = "<group>"; };
+		211FE9EB1EB121710037AE28 /* bolt2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bolt2.png; sourceTree = "<group>"; };
+		212903311EAAA7F2009C4959 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = DEVELOPER_DIR; };
+		2146D3571EB01DF9002CD2A7 /* System.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = System.framework; path = "../../../Downloads/iPhoneOS.KernelDevelopmentKit-master/System/Library/Frameworks/System.framework"; sourceTree = "<group>"; };
+		2146D3591EB01E0B002CD2A7 /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = "../../../Downloads/iPhoneOS.KernelDevelopmentKit-master/System/Library/Frameworks/Kernel.framework"; sourceTree = "<group>"; };
+		2148ABFA1EB86BD500BB3F62 /* IOTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOTypes.h; sourceTree = "<group>"; };
+		2148ABFB1EB86BD500BB3F62 /* OSKext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSKext.h; sourceTree = "<group>"; };
+		2148ABFC1EB86BD500BB3F62 /* OSMessageNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSMessageNotification.h; sourceTree = "<group>"; };
+		2148ABFD1EB86BEB00BB3F62 /* IOKitKeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOKitKeys.h; sourceTree = "<group>"; };
+		2148ABFE1EB86BEB00BB3F62 /* IOKitLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOKitLib.h; sourceTree = "<group>"; };
+		2148ABFF1EB86BEB00BB3F62 /* IOMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOMessage.h; sourceTree = "<group>"; };
+		2148AC001EB86C0500BB3F62 /* IOKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOKit.h; sourceTree = "<group>"; };
+		2148AC011EB86C1B00BB3F62 /* IOReturn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOReturn.h; sourceTree = "<group>"; };
+		2175201A1EE1F0F400ED798A /* dropbear21.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dropbear21.plist; sourceTree = "<group>"; };
+		219A13111EE2DDEB0097C84B /* dropbear22.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dropbear22.plist; sourceTree = "<group>"; };
+		219B1B331EAE154D0090BF3B /* AnExtremelyRandomFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AnExtremelyRandomFile; sourceTree = "<group>"; };
+		219B1B351EAE5B1C0090BF3B /* lb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lb.jpg; sourceTree = "<group>"; };
+		21A49FBD1EC6ABCA0044390E /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = BlueYalu/IOKit.framework; sourceTree = "<group>"; };
+		21CFFA811EAC14DC00338C1B /* vars.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vars.h; sourceTree = "<group>"; };
+		21F2664D1EB4DB9B005960D5 /* jailbreak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jailbreak.h; sourceTree = "<group>"; };
+		EA1A3B9B1E38BBDB009CA025 /* patchfinder64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = patchfinder64.h; sourceTree = "<group>"; };
+		EA1A3B9C1E391C4F009CA025 /* patchfinder64.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = patchfinder64.o; sourceTree = "<group>"; };
+		EA1A3BA61E398E33009CA025 /* 0.reload.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 0.reload.plist; sourceTree = "<group>"; };
+		EA1A3BAC1E399006009CA025 /* reload */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = reload; sourceTree = "<group>"; };
+		EA1A3BC41E39D1FF009CA025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA9900E31E1E9F060056FEBD /* BlueYalu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueYalu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA9900E71E1E9F060056FEBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA9900E91E1E9F060056FEBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA9900EA1E1E9F060056FEBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA9900EC1E1E9F060056FEBD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA9900ED1E1E9F060056FEBD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA9900F01E1E9F060056FEBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA9900F71E1E9F060056FEBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA9901021E219C210056FEBD /* offsets.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = offsets.c; sourceTree = "<group>"; };
+		EA9901031E219C210056FEBD /* offsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = offsets.h; sourceTree = "<group>"; };
+		EA9901051E219FF10056FEBD /* bootstrap.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; path = bootstrap.tar; sourceTree = "<group>"; };
+		EA9901091E21A04C0056FEBD /* tar */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = tar; sourceTree = "<group>"; };
+		EA99010B1E21A0520056FEBD /* launchctl */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = launchctl; sourceTree = "<group>"; };
+		EA99010D1E21A1560056FEBD /* jailbreak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jailbreak.m; sourceTree = "<group>"; };
+		EA99010F1E21A1A00056FEBD /* pte_stuff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pte_stuff.h; sourceTree = "<group>"; };
+		EA9901131E21A1B00056FEBD /* iokitmig64.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = iokitmig64.o; sourceTree = "<group>"; };
+		EA9901151E21A1D90056FEBD /* devicesupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = devicesupport.h; sourceTree = "<group>"; };
+		EA9901161E21A1D90056FEBD /* devicesupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = devicesupport.m; sourceTree = "<group>"; };
+		EA9901181E21A2180056FEBD /* IOKit.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = IOKit.tbd; sourceTree = "<group>"; };
+		EAA7F7C61E3EE4AF00BE3C64 /* dropbear.plist */ = {isa = PBXFileReference; explicitFileType = file.bplist; path = dropbear.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA9900E01E1E9F060056FEBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A49FBE1EC6ABDB0044390E /* IOKit.framework in Frameworks */,
+				21D5BBDB1EAC1EBF0062CCDA /* iokitmig64.o in Frameworks */,
+				21D5BBDA1EAC1EB10062CCDA /* IOKit.tbd in Frameworks */,
+				EA1A3B9D1E391C4F009CA025 /* patchfinder64.o in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		212903301EAAA7F1009C4959 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21A49FBD1EC6ABCA0044390E /* IOKit.framework */,
+				2146D3591EB01E0B002CD2A7 /* Kernel.framework */,
+				2146D3571EB01DF9002CD2A7 /* System.framework */,
+				212903311EAAA7F2009C4959 /* IOKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA9900DA1E1E9F060056FEBD = {
+			isa = PBXGroup;
+			children = (
+				EA9900E51E1E9F060056FEBD /* BlueYalu */,
+				EA9900E41E1E9F060056FEBD /* Products */,
+				212903301EAAA7F1009C4959 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA9900E41E1E9F060056FEBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA9900E31E1E9F060056FEBD /* BlueYalu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA9900E51E1E9F060056FEBD /* BlueYalu */ = {
+			isa = PBXGroup;
+			children = (
+				2148ABFA1EB86BD500BB3F62 /* IOTypes.h */,
+				2148ABFB1EB86BD500BB3F62 /* OSKext.h */,
+				2148ABFC1EB86BD500BB3F62 /* OSMessageNotification.h */,
+				2148ABFD1EB86BEB00BB3F62 /* IOKitKeys.h */,
+				2148ABFE1EB86BEB00BB3F62 /* IOKitLib.h */,
+				2148ABFF1EB86BEB00BB3F62 /* IOMessage.h */,
+				2148AC001EB86C0500BB3F62 /* IOKit.h */,
+				2148AC011EB86C1B00BB3F62 /* IOReturn.h */,
+				EAA7F7C61E3EE4AF00BE3C64 /* dropbear.plist */,
+				2175201A1EE1F0F400ED798A /* dropbear21.plist */,
+				219A13111EE2DDEB0097C84B /* dropbear22.plist */,
+				EA1A3B9B1E38BBDB009CA025 /* patchfinder64.h */,
+				EA9901021E219C210056FEBD /* offsets.c */,
+				EA9901031E219C210056FEBD /* offsets.h */,
+				EA99010D1E21A1560056FEBD /* jailbreak.m */,
+				EA9900E91E1E9F060056FEBD /* AppDelegate.h */,
+				EA1A3BA61E398E33009CA025 /* 0.reload.plist */,
+				EA1A3BAC1E399006009CA025 /* reload */,
+				EA9900EA1E1E9F060056FEBD /* AppDelegate.m */,
+				2113F1101EB0D5950039251B /* bg.jpg */,
+				EA9900EC1E1E9F060056FEBD /* ViewController.h */,
+				EA9900ED1E1E9F060056FEBD /* ViewController.m */,
+				EA9900EF1E1E9F060056FEBD /* Main.storyboard */,
+				EA9900F71E1E9F060056FEBD /* Info.plist */,
+				EA9901051E219FF10056FEBD /* bootstrap.tar */,
+				211FE9EA1EB121710037AE28 /* bolt.png */,
+				211FE9EB1EB121710037AE28 /* bolt2.png */,
+				EA9901091E21A04C0056FEBD /* tar */,
+				EA99010B1E21A0520056FEBD /* launchctl */,
+				EA9901131E21A1B00056FEBD /* iokitmig64.o */,
+				EA1A3B9C1E391C4F009CA025 /* patchfinder64.o */,
+				EA99010F1E21A1A00056FEBD /* pte_stuff.h */,
+				EA1A3BC41E39D1FF009CA025 /* Assets.xcassets */,
+				219B1B351EAE5B1C0090BF3B /* lb.jpg */,
+				EA9901181E21A2180056FEBD /* IOKit.tbd */,
+				EA9901151E21A1D90056FEBD /* devicesupport.h */,
+				EA9901161E21A1D90056FEBD /* devicesupport.m */,
+				EA9900E61E1E9F060056FEBD /* Supporting Files */,
+				21CFFA811EAC14DC00338C1B /* vars.h */,
+				219B1B331EAE154D0090BF3B /* AnExtremelyRandomFile */,
+				2113F1141EB0DD8D0039251B /* Images.xcassets */,
+				2113F1161EB0DE550039251B /* l.storyboard */,
+				21F2664D1EB4DB9B005960D5 /* jailbreak.h */,
+			);
+			path = BlueYalu;
+			sourceTree = "<group>";
+		};
+		EA9900E61E1E9F060056FEBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA9900E71E1E9F060056FEBD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA9900E21E1E9F060056FEBD /* BlueYalu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA9900FA1E1E9F060056FEBD /* Build configuration list for PBXNativeTarget "BlueYalu" */;
+			buildPhases = (
+				EA9900DF1E1E9F060056FEBD /* Sources */,
+				EA9900E01E1E9F060056FEBD /* Frameworks */,
+				EA9900E11E1E9F060056FEBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueYalu;
+			productName = yalu102;
+			productReference = EA9900E31E1E9F060056FEBD /* BlueYalu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA9900DB1E1E9F060056FEBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = kimjongcracks;
+				TargetAttributes = {
+					EA9900E21E1E9F060056FEBD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9VV67VT99L;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EA9900DE1E1E9F060056FEBD /* Build configuration list for PBXProject "BlueYalu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA9900DA1E1E9F060056FEBD;
+			productRefGroup = EA9900E41E1E9F060056FEBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA9900E21E1E9F060056FEBD /* BlueYalu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA9900E11E1E9F060056FEBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA99010A1E21A04C0056FEBD /* tar in Resources */,
+				EA99010C1E21A0520056FEBD /* launchctl in Resources */,
+				219B1B361EAE5B1C0090BF3B /* lb.jpg in Resources */,
+				2113F1151EB0DD8D0039251B /* Images.xcassets in Resources */,
+				EA9901061E219FF10056FEBD /* bootstrap.tar in Resources */,
+				EA1A3BA81E398E33009CA025 /* 0.reload.plist in Resources */,
+				219A13121EE2DDEB0097C84B /* dropbear22.plist in Resources */,
+				EAA7F7C71E3EE4AF00BE3C64 /* dropbear.plist in Resources */,
+				EA1A3BAD1E399006009CA025 /* reload in Resources */,
+				211FE9ED1EB121710037AE28 /* bolt2.png in Resources */,
+				2113F1171EB0DE550039251B /* l.storyboard in Resources */,
+				219B1B341EAE154D0090BF3B /* AnExtremelyRandomFile in Resources */,
+				211FE9EC1EB121710037AE28 /* bolt.png in Resources */,
+				EA1A3BC51E39D1FF009CA025 /* Assets.xcassets in Resources */,
+				2175201B1EE1F0F400ED798A /* dropbear21.plist in Resources */,
+				2113F1111EB0D5950039251B /* bg.jpg in Resources */,
+				EA9900F11E1E9F060056FEBD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA9900DF1E1E9F060056FEBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9901041E219C210056FEBD /* offsets.c in Sources */,
+				EA9901171E21A1D90056FEBD /* devicesupport.m in Sources */,
+				EA9900EE1E1E9F060056FEBD /* ViewController.m in Sources */,
+				EA9900EB1E1E9F060056FEBD /* AppDelegate.m in Sources */,
+				EA99010E1E21A1560056FEBD /* jailbreak.m in Sources */,
+				EA9900E81E1E9F060056FEBD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA9900EF1E1E9F060056FEBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA9900F01E1E9F060056FEBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA9900F81E1E9F060056FEBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = armv7;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_NO_PIE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA9900F91E1E9F060056FEBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = armv7;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_NO_PIE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA9900FB1E1E9F060056FEBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				DEVELOPMENT_TEAM = 9VV67VT99L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BlueYalu",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/BlueYalu/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/yalu102",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gd.rf.1gamerdev.L1MEY4LU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = armv7;
+			};
+			name = Debug;
+		};
+		EA9900FC1E1E9F060056FEBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				DEVELOPMENT_TEAM = 9VV67VT99L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BlueYalu",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/BlueYalu/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/yalu102",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gd.rf.1gamerdev.L1MEY4LU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = armv7;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA9900DE1E1E9F060056FEBD /* Build configuration list for PBXProject "BlueYalu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9900F81E1E9F060056FEBD /* Debug */,
+				EA9900F91E1E9F060056FEBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA9900FA1E1E9F060056FEBD /* Build configuration list for PBXNativeTarget "BlueYalu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9900FB1E1E9F060056FEBD /* Debug */,
+				EA9900FC1E1E9F060056FEBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA9900DB1E1E9F060056FEBD /* Project object */;
+}
